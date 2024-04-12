@@ -1,0 +1,19 @@
+{
+  "name": "pdf-json-pages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "esnext",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "pdf2json": "^3.0.5",
+    "typescript": "^5.4.5"
+  }
+}
